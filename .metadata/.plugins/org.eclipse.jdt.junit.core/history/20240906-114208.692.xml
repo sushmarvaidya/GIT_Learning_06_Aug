@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Runner" project="Git_Learning_06_Aug" tests="1" started="1" failures="1" errors="0" ignored="0">
+  <testsuite name="test_runner.Runner" time="7.054">
+    <testsuite name="User login" time="7.054">
+      <testcase name="Successful login" classname="User login" time="7.054">
+        <failure>
+          <expected>Home</expected>
+          <actual>homm</actual>
+          junit.framework.ComparisonFailure: expected:&lt;[Home]&gt; but was:&lt;[homm]&gt;&#13;
+	at junit.framework.Assert.assertEquals(Assert.java:100)&#13;
+	at junit.framework.Assert.assertEquals(Assert.java:107)&#13;
+	at step_definitions.Steps.the_user_should_be_redirected_to_the_repository_page(Steps.java:45)&#13;
+	at ✽.the user should be redirected to the Repository page(file:///C:/Users/s362/Downloads/GIT_Learning/Git_Learning_06_Aug/./Features/login.feature:7)&#13;
+&#13;
+
+        </failure>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

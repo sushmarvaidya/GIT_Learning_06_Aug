@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Runner" project="Git_Learning_06_Aug" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="test_runner.Runner" time="6.395">
+    <testsuite name="User login" time="6.395">
+      <testcase name="Successful login" classname="User login" time="6.395"/>
+    </testsuite>
+  </testsuite>
+</testrun>
